@@ -1,11 +1,12 @@
 TimeLine App
 
-Task 1 HTML. The Foundations of Web Design
+Task 3
 
-Create the static skeleton of your timeline app.
-
-* A <header> with logo and theme toggle. 
-* A <nav> or container for filters/placeholders (empty for now). 
-* A <section id="timeline"> where event markers will live. 
-* An empty <div id="modal"> for future pop‑ups. 
-* Semantic tags for main content (<main>, <article>, <figure>, etc.).
+Bring interactivity with vanilla JS. 
+A data/events.json file with at least 8 sample events (year, title, description, imageURL, category). 
+A script.js that: 
+* Fetches and parses events.json. 
+* Renders event markers into #timeline. 
+* Attaches click handlers to open #modal with event details. 
+* Implements “close” functionality for the modal. 
+* Update index.html to load script.js at the end of <body>. 
