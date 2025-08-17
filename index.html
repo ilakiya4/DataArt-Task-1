@@ -3,126 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Timeline </title>
+  <title>Timeline</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1> Personal TimeLine</h1>
-    <div><button>Theme Toggle</button></div>
+    <h1>Personal TimeLine</h1>
+
+    <!-- Theme Toggle -->
+    <div>
+      <label class="theme-toggle-label" for="theme-toggle">Theme Toggle</label>
+      <input type="checkbox" id="theme-toggle">
+    </div>
   </header>
 
   <nav>
     <!-- Filter options will go here -->
   </nav>
 
-  <main>
+  <main id="timeline"></main>
 
-    <!-- Section for 2020 -->
-    <section>
-      <h2>2020</h2>
-      <article>
-        <p><b>STARTED LEARNING PROGRAMMING IN COLLEGE.</b></p>
-        <figure>
-            <img src="4735.jpg" width="30px" height="30px">
-           <i> --This was the year I got introduced to the world of programming.<br>
-              I began with Java and Python in my first year of college.</i>
-        </figure>
-        <footer>
-            Resources: Youtube,Hackerrank
-        </footer>
-      </article>
-    </section>
-
-    <!-- Section for 2021 -->
-    <section>
-      <h2>2021</h2>
-      <article>
-        <p><b>BUILT AN FIRST MINIPROJECT IN HTML.</b></p>
-        <figure>
-            <img src="schedule_771445.png" width="30px" height="30px">
-           <i> --I created a simple responsive webpage using HTML and CSS.<br>
-              This project marked the beginning of my web development journey.</i>
-        </figure>
-        <footer>
-          Resources:Youtube,Self learning
-        </footer>
-      </article>
-    </section>
-
-    <!-- Section for 2022 -->
-    <section>
-      <h2>2022</h2>
-      <article>
-        <p><b>LEARNED JAVA,DATA STRUCTURES AND OOPS CONCEPTS.</b></p>
-        <figure>
-            <img src="96d9624a-3896-4dd6-b97f-c5e0d778c69b.jpg" width="30px" height="30px">
-          <i>--Focused on building strong programming fundamentals.<br>
-              Gained confidence in problem-solving and Java coding.</i>
-        </figure>
-        <footer>
-          Resources:Mentors,Youtube
-        </footer>
-      </article>
-    </section>
-
-    <!-- Section for 2023 -->
-    <section>
-      <h2>2023</h2>
-      <article>
-        <p><b>INTERNSHIP IN FRONTEND,BUILT AN PORTFOLIO</b></p>
-        <figure>
-            <img src="4956863.jpg" width="30px" height="30px">
-        <i>--Learned to build websites using frontend.<br>
-        Created and shared my personal portfolio online.</i>
-
-        </figure>
-        <footer>
-         Resources: CodeAcademy
-        </footer>
-      </article>
-    </section>
-
-    <!-- Section for 2024 -->
-    <section>
-      <h2>2024</h2>
-      <article>
-        <p><b>	FINAL YEAR PROJECT ON AI/ML COMPLETED.</b></p>
-        <figure>
-            <img src="Notification bell 3d cartoon style icon on white background .jpg" width="30px" height="30px">
-            <i>--Built an intelligent video surveillance system using deep learning.<br>
-              The project involved both frontend and backend implementation.</i>
-        </figure>
-        <footer>
-          Resources: Articles,Team mates,Mentors
-        </footer>
-      </article>
-    </section>
-    <section>
-      <h2>2025</h2>
-      <article>
-        <p><b>APPLIED FOR WEBINAR IN DATAART</b></p>
-        <figure>
-            <img src="https://tse2.mm.bing.net/th/id/OIP.9KyRjanZuGtR4gSad2pDqwHaEV?pid=Api&P=0&h=180" width="30px" height="30px">
-         <i>--Applied for the DataArt webinar to explore tech industry trends.<br>
-        Task 1: Creating a static skeleton of my timeline app.</i>
-        </figure>
-        <footer>
-          Resources : Learning page
-        </footer>
-      </article>
-    </section>
-
-    <!-- Main Footer -->
-    <footer>
-      <center>Timeline App © 2025 | August 07</center>
-    </footer>
-
-  </main>
-
-  <div id="modal">
-    <!-- Future popup content will go here -->
-  </div>
+  <div id="modal"></div>
 
 </body>
+<script type="module" src="./dist/index.js"></script>
 </html>
+<footer>
+  <center>CopyRight@2025 All rights reserved.</center>
+</footer>
+
