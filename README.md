@@ -1,12 +1,11 @@
 TimeLine App
 
-Task 3
+Task 4
 
-Bring interactivity with vanilla JS. 
-A data/events.json file with at least 8 sample events (year, title, description, imageURL, category). 
-A script.js that: 
-* Fetches and parses events.json. 
-* Renders event markers into #timeline. 
-* Attaches click handlers to open #modal with event details. 
-* Implements “close” functionality for the modal. 
-* Update index.html to load script.js at the end of <body>. 
+Introduce static typing and modular code. 
+Initialize TypeScript (create tsconfig.json with strict mode). 
+Convert script.js → src/index.ts: 
+Define interfaces/types for your event data. 
+Use ES modules: separate fetcher.ts, renderer.ts, modal.ts, etc. 
+Add build scripts (tsc or via bundler) to compile TS → JS into a dist/ folder. 
+Verify the app still works in the browser using the compiled JS. 
