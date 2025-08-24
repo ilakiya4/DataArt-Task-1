@@ -1,0 +1,44 @@
+[
+  {
+    "year": "2020",
+    "title": "STARTED LEARNING PROGRAMMING IN COLLEGE.",
+    "description": " --This was the year I got introduced to the world of programming and I began with Java and Python in my first year of college.",
+    "imageURL": "./assets/4735.jpg",
+    "category": "Education"
+  },
+  {
+    "year": "2021",
+    "title": "BUILT AN FIRST MINIPROJECT IN HTML.",
+    "description": " --I created a simple responsive webpage using HTML and CSS.This project marked the beginning of my web development journey.",
+    "imageURL": "./assets/schedule_771445.png",
+    "category": "Projects"
+  },
+  {
+    "year": "2022",
+    "title": "LEARNED JAVA,DATA STRUCTURES AND OOPS CONCEPTS.",
+    "description": "--Focused on building strong programming fundamentals.Gained confidence in problem-solving and Java coding.",
+    "imageURL": "./assets/96d9624a-3896-4dd6-b97f-c5e0d778c69b.jpg",
+    "category": "Education"
+  },
+  {
+    "year": "2023",
+    "title": "INTERNSHIP IN FRONTEND,BUILT AN PORTFOLIO",
+    "description": "--Learned to build websites using frontend.Created and shared my personal portfolio online.",
+    "imageURL": "./assets/4956863.jpg",
+    "category": "Internship"
+  },
+  {
+    "year": "2024",
+    "title": "FINAL YEAR PROJECT ON AI/ML COMPLETED.",
+    "description": "--Built an intelligent video surveillance system using deep learning.",
+    "imageURL": "./assets/Notification bell 3d cartoon style icon on white background .jpg",
+    "category": "Projects"
+  },
+  {
+    "year": "2025",
+    "title": "APPLIED FOR WEBINAR IN DATAART",
+    "description": "Created a responsive website using HTML,CSS,JS",
+    "imageURL": "./assets/dataart.jpeg",
+    "category": "Events"
+  }
+]
